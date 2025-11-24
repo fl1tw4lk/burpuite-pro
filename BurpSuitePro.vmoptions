@@ -1,0 +1,10 @@
+-XX:MaxRAMPercentage=50
+-include-options settings.vmoptions
+-include-options user.vmoptions
+-noverify
+-javaagent:BurpSuitePro.jar
+--add-opens=java.base/java.lang=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing=ALL-UNNAMED
+--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED
+--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED
+--add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED
