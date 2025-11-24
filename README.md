@@ -2,7 +2,7 @@
 
 Script Bash ini mengotomatiskan proses pengunduhan dan instalasi Burp Suite Professional di Linux. Script ini tidak menyertakan patch, modifikasi lisensi, atau tindakan lain yang melanggar ketentuan PortSwigger.
 
-## Requirtment
+## requirements
 - Hak akses root atau sudo.
 - Koneksi internet.
 - openjdk (java)
