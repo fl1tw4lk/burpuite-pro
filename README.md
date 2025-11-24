@@ -18,3 +18,6 @@ chmod +x install_burp.sh
 
 ### 3. Jalankan Script
 sudo ./install_burp.sh
+
+### 4. Direktori install burp
+harus di /opt

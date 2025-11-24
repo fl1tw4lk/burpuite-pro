@@ -27,7 +27,7 @@ print_banner() {
 ██║     ███████╗██║   ██║   ╚███╔███╔╝     ██║███████╗██║  ██╗
 ╚═╝     ╚══════╝╚═╝   ╚═╝    ╚══╝╚══╝      ╚═╝╚══════╝╚═╝  ╚═╝                   
  ${COLOR_RESET}
-Automated Burp Suite Professional Installer
+Burp Suite Professional Installer
 "
 }
 
@@ -85,6 +85,7 @@ install_burp() {
     chmod +x "$INSTALLER_FILENAME"
 
     print_status "Running the installer. Please follow the GUI instructions."
+    print_status "must be installed in /opt."
     # The installer runs in the foreground. The script will wait for it to complete.
     ./"$INSTALLER_FILENAME"
 }
